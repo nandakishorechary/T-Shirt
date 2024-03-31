@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+           background-image: url(download.jpeg);
+        }
+        form{
+            width: 300px;
+            height: 500px;
+            background:olivedrab;
+        }
+        input[type="text"],[type="password"],[type="radio"],[type="email"],[type="tel" ],[type="color"]
+        {        width: 150px;
+height: 20px;
+font-size: 10px;
+margin: 5px;
+outline: none;
+}
+input[type="submit"]{
+width: 120px;
+height:40px;
+color: black;
+background: red;
+cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+    <center> <h1 style="background-color: brown;width: 110px;">T-Shirt</h1></center> <center>
+    <form > 
+         First Name :<input type="text" placeholder="enter ur first name"> <br>
+                 Last Name :<input type="text" placeholder="enter ur last name"><br>
+                 Password:<input type="password" type="text" placeholder="enter ur password"><br>
+                 Male <input type="radio"  name="gender">
+                 Female<input type="radio" name="gender"><br>
+                 Email<input type="email" placeholder="enter ur mail"><br>
+                 Phone Number<input type="tel"  placeholder="enter ur phone number"><br>
+                 age<input type="Number" placeholder="enter ur age"><br> 
+                 shirt size: <input type="radio" name="size">X
+                 <input type="radio" name="size">S
+                  <input type="radio" name="size">M
+                  <input type="radio" name="size">L
+                 <input type="radio" name="size">XL
+                  <input type="radio" name="size">XXL<br>
+                 Shirt color<input type="color"><br>
+                 <input type="submit" value="submit">
+
+        
+        </center>
+    </form>
+</body>
+</html>
